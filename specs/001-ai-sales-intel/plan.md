@@ -88,6 +88,7 @@ Phase 3: Polish, scale to multiple banks, production hardening and full complian
 - Confirm list of external sources and internal data sources to monitor (public/regulatory feeds, internal repos, paid sources)
 - Confirm compliance requirements for PII and retention (concrete retention periods and anonymization rules)
 - Decide: vector DB vendor or managed solution (Weaviate/Pinecone) and authentication method for integrations
+- Selected authentication method for Phase 1: SSO (SAML/OIDC) for RM users and OAuth2 service-accounts for machine-to-machine integrations.
 
 ---
 

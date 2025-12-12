@@ -23,7 +23,8 @@ description: "Task list for AI Sales Intelligence Platform — Phase 1"
 - [ ] T006 Setup vector DB (Weaviate/Pinecone) or stub for embeddings
 - [ ] T007 Setup message bus and workers (e.g., Redis/Kafka, Celery) for ingestion and processing
 - [ ] T008 Implement secure storage and configuration for credentials and secrets
-- [ ] T009 Implement Authentication & Authorization (SSO/ OAuth) placeholder for RM access
+- [ ] T009 Implement Authentication & Authorization (SSO for RM / OAuth2 service-accounts for integrations) placeholder for RM and connector access
+- [ ] T009a Create OAuth2 service accounts and connector credentials (secure storage + rotation strategy)
 - [ ] T010 Implement logging, monitoring, and audit trail scaffold
 - [ ] T011 Create data ingestion pipeline stub and connector pattern
 - [ ] T012 Define and document data retention and PII rules (in collaboration with compliance)

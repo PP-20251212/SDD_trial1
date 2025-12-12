@@ -106,6 +106,7 @@ System analizuje powtarzające się sygnały popytu w grupie bankowej i sugeruje
 - **FR-011**: Monitoring frequency and coverage: Hybrid approach — continuous monitoring for critical sources (regulatory feeds like NIS2/DORA, high-priority financial reports), scheduled scans (daily) for broader news and lower-priority sources.
  - **FR-012**: Data access & privacy: Custom list of sources and data retention to be defined by legal/ops; system MUST support PII handling controls (masking/anonimizacja) and configurable retention per source. Requires sign-off by compliance before production.
 - **FR-013**: Integration priorities: Phase 1 integrates all three: ITDC catalog, CRM and Calendar for follow-up notifications and scheduling.
+- **FR-014**: Authentication & Authorization: System MUST support SSO (SAML/OpenID Connect) for RM users and OAuth2 service accounts for machine-to-machine integrations (connectors and scheduled ingestion). Authentication design must be compliant with corporate security policies.
 
 ### Key Entities *(include if feature involves data)*
 
